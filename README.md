@@ -188,10 +188,10 @@ ORDER BY hypertable_name;
 ```
 
 
-```md
+
 <img width="457" height="195" alt="image" src="https://github.com/user-attachments/assets/1e70ed1d-dd71-4f3a-a9d2-16b060a2573f" />
 
-```
+
 
 ## Dimension Verification
 
@@ -223,10 +223,9 @@ WHERE hypertable_name IN ('media_events', 'api_metrics')
 ORDER BY hypertable_name, range_start;
 ```
 
-```md
 <img width="845" height="245" alt="image" src="https://github.com/user-attachments/assets/b9330afe-5c8c-4017-85a1-a5fe23cb03fe" />
 
-```
+
 
 ---
 
@@ -373,10 +372,10 @@ ORDER BY avg_buffer_ms DESC;
 `US + smart_tv` had the highest average buffering duration.
 
 
-```md
+
 <img width="825" height="422" alt="image" src="https://github.com/user-attachments/assets/10b0717c-f40d-497b-b071-9a9779ff5629" />
 
-```
+
 
 ---
 
@@ -400,10 +399,9 @@ ORDER BY avg_response_ms DESC;
 The US `/recommendations` endpoint had the highest average response time.
 
 
-```md
 <img width="843" height="425" alt="image" src="https://github.com/user-attachments/assets/751c5a39-7c55-4962-b541-9ee4b2316870" />
 
-```
+
 
 ---
 
@@ -463,10 +461,9 @@ During the incident window:
 - average buffering increased from approximately **3.1 seconds to 10.4 seconds**.
 
 
-```md
+
 <img width="1026" height="205" alt="image" src="https://github.com/user-attachments/assets/772b64c6-051b-4ede-9a8a-c7579afbbf9e" />
 
-```
 
 ---
 
@@ -530,12 +527,10 @@ During the incident window:
 - CPU utilization increased from **42.48% to 85.05%**;
 - the normalized error rate increased from approximately **3.88% to 13.70%**.
 
-Add screenshot:
 
-```md
 <img width="872" height="197" alt="image" src="https://github.com/user-attachments/assets/07e9cf1b-ac14-4100-8187-ec08ade1b2e7" />
 
-```
+
 
 ---
 
@@ -587,10 +582,9 @@ Rows Removed by Filter: 2605
 
 
 
-```md
 <img width="975" height="351" alt="image" src="https://github.com/user-attachments/assets/382663bb-3d37-4e56-9e29-a412c47acfc0" />
 
-```
+
 
 ### Composite Index
 
@@ -619,10 +613,10 @@ Buffers: shared hit=80 read=8
 
 
 
-```md
+
 <img width="975" height="264" alt="image" src="https://github.com/user-attachments/assets/2a028e5d-5e3e-48fb-b9ea-656499a7f31e" />
 
-```
+
 
 ### Result
 
@@ -651,10 +645,9 @@ Rows Removed by Filter: 15120
 
 
 
-```md
+
 <img width="975" height="222" alt="image" src="https://github.com/user-attachments/assets/f42e84a7-cdc6-465c-ba6d-a3499a653ee1" />
 
-```
 
 ### First Index Attempt
 
@@ -766,14 +759,12 @@ The dashboard monitors:
 
 Full dashboard screenshot:
 
-```md
+
 <img width="1917" height="855" alt="image" src="https://github.com/user-attachments/assets/089620cd-df9d-4598-bec4-6b6cfd94d409" />
 
-```
-```md
 <img width="1917" height="696" alt="image" src="https://github.com/user-attachments/assets/231b181e-45d1-4561-98c1-682a6678cc48" />
 
-```
+
 
 ---
 
